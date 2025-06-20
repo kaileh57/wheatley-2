@@ -1,0 +1,45 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# AI and ML
+google-generativeai==0.8.3
+openai-whisper==20231117
+chromadb==0.4.22
+sentence-transformers==2.2.2
+
+# Audio processing
+sounddevice==0.4.6
+numpy==1.24.3
+scipy==1.11.4
+pyaudio==0.2.14
+webrtcvad==2.0.10
+
+# Wake word detection
+# OpenWakeWord will need manual setup
+pvporcupine==3.0.0  # Alternative wake word engine
+
+# Database
+sqlalchemy==2.0.23
+aiosqlite==0.19.0
+
+# Utilities
+httpx==0.25.2
+aiofiles==23.2.1
+python-multipart==0.0.6
+PyYAML==6.0.1
+redis==5.0.1  # Optional for caching
+apscheduler==3.10.4  # For scheduled tasks
+
+# Hardware control (Raspberry Pi)
+# RPi.GPIO==0.7.1  # Uncomment on Raspberry Pi
+# adafruit-circuitpython-neopixel==6.3.9  # For LED control
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0 
